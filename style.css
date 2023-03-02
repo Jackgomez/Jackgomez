@@ -3,7 +3,7 @@
 }
 body {
   background: #18191f;
-  min-width: 90vh;
+  min-width: 100vh;
 }
 
 /* Header */
@@ -70,16 +70,6 @@ nav {
   color: lightblue;
 }  */
 
-/* Welcome Page */
-#welcome {
-  background-color: red;
-  color: white;
-  height: 50vh;
-  padding-top: 9rem;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 700;
-}
-
 /* Languages & Tools */
 .tools-container {
   background: #18191f;
@@ -111,17 +101,30 @@ nav {
 }
 
 /*Projects Section*/
-#work {
-  background-color: white;
-  min-height: 80vh;
-  height: auto;
-  padding-bottom: 2rem;
-  padding: 0 0;
-  
-}
 h2 {
-  font-family: 'Rubik Glitch', cursive;
+  font-family: 'Outfit', sans-serif;
   margin: 30px 0;
+  color: white;
+  background-color: grey;
+}
+
+#work {
+  background-color: blue;
+  height: 80vh;
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+
+}
+.projects {
+  width: 66.7vh;
+  text-align: center;
+  color: black;
+  font-family: 'Outfit', sans-serif;
+  font-size: 4rem;
+  border-width: 1px;
+  border-color: green;
+  border-style: solid;
 }
 
 .project1 {
