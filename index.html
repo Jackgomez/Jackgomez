@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae917a7576.js" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> 
+    </script>   -->
+
+    <title>Jack Gomez | Portfolio</title>
+    
+</head>
+<body>
+    <div id="header">
+        <p>Jack Gomez</p>
+        <section class="buttons">
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/ANDREW90573512" role="button"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/jack-gomez-522ba1214/" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/Jackgomez" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+           </section>
+    </div>
+    <main>
+        <!-- Welcome Page -->
+        <div id="welcome" class="container-fluid">
+            <h1 class="text-center">Welcome!</h1>
+            <h3 class="text-center">To my Portfolio</h3>
+        </div>
+
+        <!-- Languages & Tools -->
+        <div class="container-fluid tools-container">
+        <h3 class="text-center">Languages & Tools!</h3>
+        <div class="icons-container">
+
+            <i class="fa-brands fa-html5 tools" id="html"></i>
+            
+            <i class="fa-brands fa-css3-alt tools" id="css"></i>
+            
+            <i class="fa-brands fa-js tools" id="js"></i>
+        
+            <i class="fa-brands fa-bootstrap tools" id="bootstrap"></i>
+            
+            <i class="fa-brands fa-react tools" id="react"></i>
+        </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="container-fluid" id="work">
+            <h2 class="text-center">Projects!</h2>
+            <div class="projects">
+                 <div class="image-container">
+                    <img src="NFT.png" class="img-responsive" alt="one">
+                 </div>
+                 <div class="container1">
+                    <div class="info text-center">
+                        <h4>hello project info here #container1</h4>
+                        <p>Tune in to the No.1 Podcast about life in Japan as Chris Broad and co-host Pete Donaldson discuss weird, wacky and wonderful news going on around the country. From insider travel tips, and language learning secrets, to hilariously awkward travel stories sent in by listeners and a weekly Q&A answering your questions. With over 100 episodes and broadcast every Wednesday, there’s no better place to learn about life in Japan while you’re on the go.</p>
+                        <a role="button" target="_blank" href="https://nft-preview-card-825.pages.dev/" class="check btn btn-light btn-block">Check it Out</a>
+                    </div>
+                 </div>
+            </div>
+            <div class="projects">
+                Project 2
+            </div>
+            <div class="projects">
+                Project 3
+            </div>
+            <div class="projects">
+                Project 4
+            </div>
+        </div>
+    </main>
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    document.getElementById("header").style.fontSize = "30px";
+  } else {
+    document.getElementById("header").style.fontSize = "55px";
+  }
+}
+    </script>
+</body>
+</html>
