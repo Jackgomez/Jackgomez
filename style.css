@@ -1,37 +1,74 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');html {
   scroll-behavior: smooth;
 }
 body {
   background: #18191f;
+  min-width: 90vh;
 }
 
 /* Header */
-#header {
+nav {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  background: #18191f;
+  flex-direction: column;
+  justify-content: center;
+  background: #ECECEC;
   padding: 5px 50px;
-  color: white;
-  font-family: 'Rubik Glitch', cursive;
-  font-size: 55px;
-  position: fixed;
-  top: 0;
+  color: black;
+  font-family: 'Outfit', sans-serif;
   width: 100%;
-  transition: 0.2s;
+  height: 100vh;
+  transition: all 1s ease-in;
+  align-items: center;
+  min-width: 100vh;
+}
+.my-element {
+  background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black);
+  background-size: 100% 2px, 2px 100%, 2px 100%;
+  background-position: 0 10%, 7% 0, 93% 0;
+  background-repeat: no-repeat;
+}
+.big {
+  font-weight: 700;
+  font-size: 8rem;
+}
+.comment {
+  width: 50vh;
   text-align: center;
+  padding-bottom: 3rem;
+  font-size: 2rem;
 }
 #small-header {
   display: none;
 }
-
-#header a {
-  color: inherit;
-  font-size: inherit;
+#twitter:hover {
+  background-color: white;
+  color: #1DA1F2;
+  border-radius: 2rem;
+  padding: 0 1.2rem;
+  transition: all 0.2s ease;
 }
-#header a:hover {
-  color: #ffffff50;
-} 
+#linkedin:hover {
+  background-color: #0077B5;
+  color: white;
+  border-radius: 2rem;
+  padding: 0 1.2rem;
+  transition: all 0.2s ease;
+}
+#github:hover {
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 0 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.big a {
+  color: inherit;
+  font-size: 5rem;
+}
+/* #header a:hover {
+  color: lightblue;
+}  */
 
 /* Welcome Page */
 #welcome {
@@ -39,8 +76,8 @@ body {
   color: white;
   height: 50vh;
   padding-top: 9rem;
-  font-family: 'Rubik Glitch', cursive;
-  margin-top: 112px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
 }
 
 /* Languages & Tools */
@@ -48,7 +85,8 @@ body {
   background: #18191f;
   color: white;
   padding-bottom: 2rem;
-  font-family: 'Rubik Glitch', cursive;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
 }
 .icons-container {
   display: flex;
@@ -86,53 +124,54 @@ h2 {
   margin: 30px 0;
 }
 
-.projects {
+.project1 {
   height: 80vh;
   width: 100%;
-  background-color: white;
+  min-width: 90vh;
+  background-color: green;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .image-container {
   width: 50%;
-  height: 80vh;
-  color: white;
-  overflow: hidden;
+  height: 100%;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
 }
 img {
+  margin: auto;
+  display: block;
   height: 100%;
-  position: static;
-  background-size: cover;
-  float: left;
+
 }
 
 .container1 {
   height: 80vh;
   width: 50%;
-  background-color: black;
+  background-color: hsl(217, 54%, 11%);
   overflow: hidden;
+  display: flex;
 }
 .info {
   text-align: center;
-  position: static;
-  background-color: white;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(215, 51%, 70%);
   border-radius: 2rem;
   height: 400px;
   width: 400px;
-  margin: 140px 0;
-  margin-right: 20%;
-  float: right;
+  margin: auto;
   padding: 30px;
-  
 }
+
 /* Button */
 .check {
-  border-color: black;
   margin-top: 30px;
-  color: black;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 2rem;
 }
 
   

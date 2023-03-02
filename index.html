@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ae917a7576.js" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> 
     </script>   -->
@@ -16,21 +15,27 @@
     
 </head>
 <body>
-    <nav id="header">
-        <p>Jack Gomez</p>
-        <section class="buttons">
+    <nav class="my-element">
+        <p class="big">Jack Gomez Aguilar</p>
+        <div class="comment">
+          <p>Welcome to my portfolio - Here I will introduce you to the pojects I have been working on
+          how I developed my skills, and what technologies learned.</p>
+        </div>
+
+
+        <section class="buttons big">
             <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/ANDREW90573512" role="button"
+            <a id="twitter" class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/ANDREW90573512" role="button"
               ><i class="fa-brands fa-twitter"></i
             ></a>
       
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/jack-gomez-aguilar" role="button"
+            <a id="linkedin" class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/jack-gomez-aguilar" role="button"
               ><i class="fab fa-linkedin-in"></i
             ></a>
       
             <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/Jackgomez" role="button"
+            <a id="github" class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/Jackgomez" role="button"
               ><i class="fab fa-github"></i
             ></a>
            </section>
@@ -62,9 +67,9 @@
         <!-- Projects Section -->
         <div class="container-fluid" id="work">
             <h2 class="text-center">Projects!</h2>
-            <div class="projects">
+            <div class="project1">
                  <div class="image-container">
-                    <img src="images/NFT.png" class="img-responsive" alt="one">
+                    <img src="images/NFT.png" alt="one">
                  </div>
                  <div class="container1">
                     <div class="info text-center">
@@ -85,7 +90,7 @@
             </div>
         </div>
     </main>
-    <script>
+    <!-- <script>
         // When the user scrolls down 50px from the top of the document, resize the header's font size
 window.onscroll = function() {scrollFunction()};
 
@@ -96,6 +101,6 @@ function scrollFunction() {
     document.getElementById("header").style.fontSize = "55px";
   }
 }
-    </script>
+    </script> -->
 </body>
 </html>
