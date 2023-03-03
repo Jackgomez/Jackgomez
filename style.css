@@ -127,6 +127,16 @@ h2 {
   border-style: solid;
 }
 
+#first {
+  background-color: #F3D250;
+}
+#second {
+  background-color: #90CCF4;
+}
+#third {
+  background-color: #F78888;
+}
+
 .project1 {
   height: 80vh;
   width: 100%;
