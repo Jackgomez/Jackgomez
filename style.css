@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 }
 body {
-  background: #18191f;
+  background: #ECECEC;
   min-width: 100vh;
 }
 
@@ -72,17 +72,22 @@ nav {
 
 /* Languages & Tools */
 .tools-container {
-  background: #18191f;
-  color: white;
-  padding-bottom: 2rem;
+  background: #ECECEC;
+  color: black;
+  padding: 2rem;
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
+  background-image: linear-gradient(black, black), linear-gradient(black, black);
+  background-size: 2px 100%, 2px 100%;
+  background-position: 7% 0, 93% 0;
+  background-repeat: no-repeat;
 }
 .icons-container {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: inherit;
+  justify-content: space-evenly;
+  min-width: 90vh;
+  max-width: 160vh;
+  margin: 0 auto;
 }
 .tools {
   font-size: 90px;
@@ -171,8 +176,7 @@ nav {
 #title {
   font-family: 'Outfit', sans-serif;
   margin: 30px 0;
-  color: white;
-  background-color: grey;
+  color: black;
   font-weight: bold;
 }
 
@@ -187,9 +191,6 @@ nav {
   border-style: solid;
 }
 
-#first {
-  
-}
 #second {
   background-color: #90CCF4;
 }
